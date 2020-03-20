@@ -14,7 +14,9 @@ import { RectangleSixComponent } from './components/rectangle-six/rectangle-six.
 import { RectangleSevenComponent } from './components/rectangle-seven/rectangle-seven.component';
 import { ChartsModule } from 'ng2-charts';
 import { DashboardComponentComponent } from './components/dashboard-component/dashboard-component.component';
-import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
+import { routes } from './app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -35,7 +37,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     GoogleChartsModule,
     ChartsModule,
-    AppRoutingModule
+    RouterModule.forRoot(routes, {useHash: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
