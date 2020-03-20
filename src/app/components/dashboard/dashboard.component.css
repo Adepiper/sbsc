@@ -1,0 +1,98 @@
+.Vector {
+    width: 243px;
+    height: 1024px;
+    background-image: linear-gradient(to top, #1fab89, #75c5f0);
+  }
+
+  .Sidebar-bg {
+    width: 243px;
+    height: 1024px;
+    background-color: #13244e;
+  }
+
+  .Group-13 {
+    width: 137px;
+    height: 32px;
+    object-fit: contain;
+    margin-right: 74px;
+    margin-top: 24px;
+    margin-left: 32px;
+  }
+
+  .MenuiconHome {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+  }
+
+  .Active-Menu {
+    width: 211px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #0093dd;
+    margin-left: 20px;
+    margin-right: 16px;
+  }
+  .Active-Menu a {
+    margin-left: 18px;
+  }
+  .dashboard-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .dashboard-menu {
+      margin-top: 48px;
+  }
+
+    .dashboard-menu li {
+        margin-top: 24px;
+    }
+.dashboard-menu a{
+    margin-left: 40px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.dashboard-menu span{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+  .Dashboard {
+    width: 71px;
+    height: 20px;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  .Budget {
+    width: 47px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+
+  }
+
+  .MenuiconRequests {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+  }
+
+  .MenuiconApproval {
+    width: 13.3px;
+    height: 13.3px;
+    object-fit: contain;
+  }
+  

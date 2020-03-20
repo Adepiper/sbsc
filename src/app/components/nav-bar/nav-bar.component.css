@@ -1,0 +1,45 @@
+.home{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.Navbar {
+  width: 1197px;
+  height: 72px;
+  box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
+  background-color: #ffffff;
+}
+.Navbar ul{
+  list-style: none;
+}
+
+.Group-98 {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+  }
+
+.Bidemi-Yusuf {
+    width: 84px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .Executive {
+    width: 44px;
+    height: 13px;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #000000;
+  }

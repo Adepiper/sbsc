@@ -1,0 +1,55 @@
+.Rectangle-22 {
+    width: 385px;
+    height: 165px;
+    border-radius: 6px;
+    box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
+    background-color: #ffffff;
+    margin-top: 16px;
+  }
+
+  
+  .Group-10790 {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .header{
+    border-bottom: dotted lightgrey;
+  }
+
+  .Total-Annual-CAPEX-Budget {
+    width: 198px;
+    height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #13244e;
+    margin-left: 8px;
+    margin-top: 15px;
+  }
+
+  .Rectangle-31 {
+    width: 343px;
+    height: 71px;
+    border-radius: 8px;
+    background-color: #f0f3f9;
+  }
+  
+  .number{
+        width: 57px;
+        height: 22px;
+        font-size: 37px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.59;
+        letter-spacing: normal;
+        color: #000000;
+      }
