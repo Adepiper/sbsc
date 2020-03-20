@@ -7,38 +7,40 @@
                      ../../../assets/Group 13@3x.png 3x"
                      class="Group-13">
                 </a>
-
-        <div class="dashboard-menu">
-            <ul>
-                <li class="Active-Menu">
-                    <a href="" >
-                            <img src="../../../assets/Homeq.png"
-                            srcset="../../../assets/Homeq@2x.png 2x,
-                            ../../../assets/Homeq@3x.png 3x"
-                            class="MenuiconHome">
-                        <span class="Dashboard">Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                                <a href="" >
-                                        <img src="../../../assets/Requests.png"
-                                        srcset="../../../assets/Requests@2x.png 2x,
-                                        ../../../assets/Requests@3x.png 3x"
-                                        class="MenuiconRequest">
-                                    <span class="Budget">Budget</span>
-                                
-                        </a>
-                    </li>
-                    <li>
-                            <a href="" >
-                                    <img src="../../../assets/Approval.png"
-                                    srcset="../../../assets/Approval@2x.png 2x,
-                                    ../../../assets/Approval@3x.png 3x"
-                                    class="MenuiconApproval">
-                                <span class="Budget">Approvals</span>
-                            </a>
-                      </li>
-            </ul>
-        </div>
+                <div class="container">
+                        <div class="dashboard-menu">
+                                <ul>
+                                    <li routerLinkActive= "active" [routerLinkActiveOptions]="{ exact: true } " >
+                                        <a [routerLink] = "['/dashboard']" >
+                                                <img src="../../../assets/Homeq.png"
+                                                srcset="../../../assets/Homeq@2x.png 2x,
+                                                ../../../assets/Homeq@3x.png 3x"
+                                                class="MenuiconHome">
+                                            <span class="Dashboard">Dashboard</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                                    <a href="" >
+                                                            <img src="../../../assets/Requests.png"
+                                                            srcset="../../../assets/Requests@2x.png 2x,
+                                                            ../../../assets/Requests@3x.png 3x"
+                                                            class="MenuiconRequest">
+                                                        <span class="Budget">Budget</span>
+                                                    
+                                            </a>
+                                        </li>
+                                        <li>
+                                                <a href="" >
+                                                        <img src="../../../assets/Approval.png"
+                                                        srcset="../../../assets/Approval@2x.png 2x,
+                                                        ../../../assets/Approval@3x.png 3x"
+                                                        class="MenuiconApproval">
+                                                    <span class="Budget">Approvals</span>
+                                                </a>
+                                          </li>
+                                </ul>
+                            </div>
+                </div>
+        
     </div>
 </div>

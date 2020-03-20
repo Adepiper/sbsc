@@ -8,3 +8,66 @@
     margin-left: 21px;
     margin-bottom: 72px;
   }
+
+  
+  .Patients-Statistics {
+    width: 243px;
+    height: 23px;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    color: #253858;
+    margin-top: 40px;
+  }
+
+  .Total-Returning-Pati {
+    width: 260px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.17px;
+    color: #485465;
+  }
+
+  .Total-Revenue {
+    width: 69px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.17px;
+    color: #485465;
+  }
+  .Rectangle {
+    width: 105px;
+    height: 17px;
+    border-radius: 8.5px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.17px;
+    color: #4abba4;
+    padding: 5px;
+  }
+  #N-8282289 {
+    width: 72px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.17px;
+    color: #c00202;
+  }

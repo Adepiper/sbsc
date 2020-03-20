@@ -1,0 +1,20 @@
+.Navbar {
+    width: 1197px;
+    height: 72px;
+    box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
+    background-color: #ffffff;
+    margin-left: 41px;
+    margin-right: 47px;
+  }
+
+.header{
+    margin: 48px 47px 0px 41px;
+}
+
+.box{
+    margin: 13px 47px 0px 41px;
+}
+.col{
+    margin: 0 !important;
+    padding: 0 !important;
+}

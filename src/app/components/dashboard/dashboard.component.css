@@ -24,21 +24,10 @@
     height: 16px;
     object-fit: contain;
   }
-
-  .Active-Menu {
-    width: 211px;
-    height: 36px;
-    border-radius: 4px;
-    background-color: #0093dd;
-    margin-left: 20px;
-    margin-right: 16px;
-  }
-  .Active-Menu a {
-    margin-left: 18px;
-  }
   .dashboard-menu ul{
     list-style: none;
-    margin: 0;
+    margin-left: 20px;
+    margin-right: 40px;
     padding: 0;
   }
   .dashboard-menu {
@@ -47,11 +36,25 @@
 
     .dashboard-menu li {
         margin-top: 24px;
+        margin-left: -10px;
     }
 .dashboard-menu a{
     margin-left: 40px;
     margin-top: 24px;
     margin-bottom: 8px;
+}
+
+
+
+li.active{
+  width: 211px;
+  height: 36px;
+  border-radius: 4px;
+  background-color: #0093dd;
+}
+
+li.active span{
+  margin-bottom: -10px;
 }
 
 .dashboard-menu span{

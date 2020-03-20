@@ -4,12 +4,6 @@
     object-fit: contain;
 }
 
-.Navbar {
-  width: 1197px;
-  height: 72px;
-  box-shadow: 0 7px 64px 0 rgba(19, 36, 78, 0.07);
-  background-color: #ffffff;
-}
 .Navbar ul{
   list-style: none;
 }

@@ -1,3 +1,27 @@
 <div class="Graph-BG">
-
+    <div class="m-4">
+            <div class="Patients-Statistics">
+                    TOTAL OPEX Budget Statistics
+                </div> 
+                <div class="Total-Returning-Pati mt-1">
+                    Total Budget Spent vs Total Budget Balance
+                </div>
+                <div class="mt-2">
+                    <span class="Total-Revenue">Total Spent</span>
+                    <span class="Rectangle mx-3">N 8,282,289</span>
+                    <span class="Total-Revenue">Total Balance</span>
+                    <span class="Rectangle mx-3" id="N-8282289">N 8,282,289 </span>
+                </div>
+            </div>
+           
+            <div class="chart-wrapper m-4">
+                <canvas baseChart 
+                [options]="barChartOptions"
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [plugins]="barChartPlugins"
+                [legend]="barChartLegend"
+                [chartType]="barChartType">
+              </canvas>
+            </div>
 </div>

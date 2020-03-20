@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {GoogleChartsModule} from 'angular-google-charts'
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
@@ -12,6 +12,9 @@ import { RectangleFourComponent } from './components/rectangle-four/rectangle-fo
 import { RectangleFiveComponent } from './components/rectangle-five/rectangle-five.component';
 import { RectangleSixComponent } from './components/rectangle-six/rectangle-six.component';
 import { RectangleSevenComponent } from './components/rectangle-seven/rectangle-seven.component';
+import { ChartsModule } from 'ng2-charts';
+import { DashboardComponentComponent } from './components/dashboard-component/dashboard-component.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -25,10 +28,14 @@ import { RectangleSevenComponent } from './components/rectangle-seven/rectangle-
     RectangleFourComponent,
     RectangleFiveComponent,
     RectangleSixComponent,
-    RectangleSevenComponent
+    RectangleSevenComponent,
+    DashboardComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    GoogleChartsModule,
+    ChartsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
